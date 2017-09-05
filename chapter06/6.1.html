@@ -37,7 +37,9 @@ td {
 <script type="text/javascript">
 $(document).ready(function( ) {
 	$('table.striped tr:even').addClass('even');
-	$('table.striped tbody tr')
+	$('table.striped tbody tr').mouseover(function( ) {
+      $(this).addClass('highlight');
+  });
 });
 </script>
 </head>
